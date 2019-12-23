@@ -25,3 +25,11 @@ app_port为启动程序占用端口。
 其它静态数据需求请放在data文件夹里
 路径地址： /data/demo.json
 请求地址：/data/demo.json     本地测试： http://localhost:3346/data/demo.json
+
+
+小程序代码：
+在 minapp 文件夹
+修改配置在common/vendor.js 3958行附近(注，如果无法运行请用 vendor.min.js代换本文件内容)
+接口地址一定要改成您的测试接口地址。
+
+（删除数据库文件为清空所有用户数据操作，请慎重！！！）
