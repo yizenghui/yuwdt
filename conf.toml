@@ -1,0 +1,25 @@
+# This is a TOML document. Boom.
+
+app_id = "wxb835*****a592"
+app_secret = "2c21***************91358"
+
+# 应用端口，单机可以考虑使用 443 + https模式(方便)，其它的建议通过端口映射实现
+app_port = "3346"
+
+# 本地测试用false，如果是单机服务可以用https，直接进行接口服务(会占用端口) 选填 true false
+use_https = false 
+
+# 域名相关证书，如果不做映射的话要配置(建议扔进本文件夹)
+cert_pem = "cert.pem"
+key_pem = "cert.key"
+
+
+# 小程序分享标题和封面图
+share_title = ""
+share_cover = ""
+
+# 可返回某些广告ID，用户满足幻想
+screen_adid = ""
+grid_adid = ""
+vidio_adid = ""
+banner_adid = ""
