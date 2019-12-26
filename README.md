@@ -1,5 +1,9 @@
 ## Yuwdt 快速实现简易答题小程序后台接口
 
+小程序代码里面的project.config.json换成您的。
+
+conf.toml里面的也换成您的 app_id、app_secret。
+
 > 3分钟快速部署
 
 后台安装使用教程：

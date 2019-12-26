@@ -1,7 +1,10 @@
 # This is a TOML document. Boom.
 
-app_id = "wxb835*****a592"
-app_secret = "2c21***************91358"
+app_id = "wx1e3******9c36"
+app_secret = "07b79**********f32bd9fec"
+app_start_logo = "https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg" #开始logo
+app_pass_logo = "https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg" #通关logo
+app_pass_guide = "https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg" #通关引导海报  高度问题请在小程序修改 .apppassguide 样式
 
 # 应用端口，单机可以考虑使用 443 + https模式(方便)，其它的建议通过端口映射实现
 app_port = "3346"
@@ -15,10 +18,10 @@ key_pem = "cert.key"
 
 
 # 小程序分享标题和封面图
-share_title = ""
-share_cover = ""
+share_title = "自定义分享标题"
+share_cover = "https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg"
 
-# 可返回某些广告ID，用户满足幻想
+# 可返回某些广告ID，满足幻想
 screen_adid = ""
 grid_adid = ""
 vidio_adid = ""
